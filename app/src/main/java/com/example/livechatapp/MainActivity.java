@@ -146,7 +146,7 @@ public class MainActivity extends ActionBarActivity {
             for (int i = chatRoomList.size() - 1; i >= 0; i--) {
                 //IMPORTANT NOTE: when comparing objects, such as strings, use the .equals() method
                 if (chatRoomName.equals(chatRoomList.get(i))) {
-                    //do stuff to join the chatroom (add at later point)
+                    //TODO: do stuff to join the chatroom (what?)
                     chatRoomDoesntExist = false;
                     break;
                 }
